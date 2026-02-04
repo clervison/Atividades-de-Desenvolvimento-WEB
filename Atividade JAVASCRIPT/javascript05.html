@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Numero primo</title>
+</head>
+<body>
+
+<script>
+    let num = parseInt(prompt("Digite um número inteiro:"));
+    let primo = true;
+
+    if (num <= 1) {
+        primo = false;
+    } else {
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0) {
+                primo = false;
+                break;
+            }
+        }
+    }
+
+    if (primo) {
+        alert("O número é primo");
+    } else {
+        alert("O número não é primo");
+    }
+</script>
+
+</body>
+</html>

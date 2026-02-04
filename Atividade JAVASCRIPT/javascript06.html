@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Primos</title>
+</head>
+<body>
+
+<script>
+    let n = parseInt(prompt("Digite um número inteiro:"));
+
+    console.log("Números primos entre 1 e", n);
+
+    for (let num = 2; num <= n; num++) {
+        let primo = true;
+
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0) {
+                primo = false;
+                break;
+            }
+        }
+
+        if (primo) {
+            console.log(num);
+        }
+    }
+</script>
+
+</body>
+</html>

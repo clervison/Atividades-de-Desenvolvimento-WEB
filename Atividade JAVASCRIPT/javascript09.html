@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pessoas maiores e menores de idade</title>
+</head>
+<body>
+
+<script>
+    let maiores = 0;
+    let menores = 0;
+
+    while (true) {
+        let nome = prompt("Digite o nome (ou digite 'sair' para encerrar):");
+
+        if (nome.toLowerCase() === "sair") {
+            break;
+        }
+
+        let idade = parseInt(prompt("Digite a idade de " + nome));
+
+        if (idade >= 18) {
+            maiores++;
+        } else {
+            menores++;
+        }
+    }
+
+    alert("Maiores de idade: " + maiores + "\nMenores de idade: " + menores);
+    console.log("Maiores de idade:", maiores);
+    console.log("Menores de idade:", menores);
+</script>
+
+</body>
+</html>

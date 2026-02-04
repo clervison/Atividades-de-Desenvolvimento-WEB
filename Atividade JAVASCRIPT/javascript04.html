@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Escolher tipo de conversão</title>
+</head>
+<body>
+
+<script>
+    let temp = parseFloat(prompt("Digite a temperatura:"));
+    let tipo = prompt("Digite C para Celsius ou F para Fahrenheit").toUpperCase();
+
+    if (tipo === "C") {
+        let f = (temp * 9/5) + 32;
+        alert("Resultado em Fahrenheit: " + f);
+    } else if (tipo === "F") {
+        let c = (temp - 32) * 5/9;
+        alert("Resultado em Celsius: " + c);
+    } else {
+        alert("Opção inválida");
+    }
+</script>
+
+</body>
+</html>
