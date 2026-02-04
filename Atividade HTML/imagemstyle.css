@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f4f6fb;
+    padding: 30px;
+    color: #333;
+}
+
+/* Títulos */
+h1 {
+    margin: 25px 0 10px;
+    color: #1f2937;
+}
+
+/* Parágrafo */
+p {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Imagens em geral */
+img {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Imagem clicável */
+a img {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+a img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Figure */
+figure {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Legenda */
+figcaption {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #444;
+    text-align: justify;
+}

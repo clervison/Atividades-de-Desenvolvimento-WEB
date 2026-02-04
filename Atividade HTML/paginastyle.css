@@ -1,0 +1,46 @@
+/* Seletor por ID */
+#topo {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Seletor por classe */
+.menu {
+    background-color: #333;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+/* Seletor filho */
+.menu > ul > li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Seletor de atributo */
+article[data-tipo="artigo"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.secao {
+    margin: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

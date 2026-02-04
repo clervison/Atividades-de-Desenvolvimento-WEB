@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="form01.css">
+
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1>Formulário de Cadastro</h1>
+
+    <form action="#" method="post">
+
+
+        <!-- Nome -->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- E-mail -->
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Senha -->
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <!-- Data -->
+        <label for="data">Data:</label><br>
+        <input type="date" id="data" name="data"><br><br>
+
+        <!-- Select com 3 opções -->
+        <label for="opcao">Escolha uma opção:</label><br>
+        <select id="opcao" name="opcao">
+            <option value="op1">Opção 1</option>
+            <option value="op2">Opção 2</option>
+            <option value="op3">Opção 3</option>
+        </select><br><br>
+
+        <!-- Radio -->
+        <p>Escolha uma opção:</p>
+        <input type="radio" id="radio1" name="radio" value="A">
+        <label for="radio1">Opção A</label><br>
+
+        <input type="radio" id="radio2" name="radio" value="B">
+        <label for="radio2">Opção B</label><br><br>
+
+        <!-- Checkbox -->
+        <p>Marque as opções:</p>
+        <input type="checkbox" id="check1" name="check1">
+        <label for="check1">Opção 1</label><br>
+
+        <input type="checkbox" id="check2" name="check2">
+        <label for="check2">Opção 2</label><br><br>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>
