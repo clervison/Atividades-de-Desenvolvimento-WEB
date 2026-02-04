@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 09</title>
+    <style>
+        #container-flex {
+            display: flex;
+            gap: 10px;
+        }
+
+        .box {
+            background-color: #ddd;
+            padding: 20px;
+            flex: 1;
+        }
+
+        @media (max-width: 600px) {
+            #container-flex {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container-flex">
+        <div class="box">Item A - Arvare</div>
+        <div class="box">Item B - Mar</div>
+    </div>
+
+</body>
+</html>
